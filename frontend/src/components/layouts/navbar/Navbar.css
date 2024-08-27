@@ -1,0 +1,68 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-ol {
+  display: flex;
+  gap: 50px;
+}
+
+li {
+  list-style: none;
+  font-size: large;
+  cursor: pointer;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a:hover {
+  border-bottom: 4px solid green;
+}
+a {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+
+@media (width <= 400px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  color: white;
+}
+
+.btn-contact {
+  background-color: blue;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.logo {
+  border-bottom: 5px solid green;
+}

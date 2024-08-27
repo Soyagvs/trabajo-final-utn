@@ -1,0 +1,41 @@
+.contact-h2{
+    color:white;
+    border-bottom:4px solid green;
+    text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+  color: white;
+    font-style: oblique;
+}
+
+input {
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #373739;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-p {
+    font-size: 30px;
+    max-width: 900px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.context-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*boton enviar*/
+.btn-contact{
+  background-color: green;
+  color: black;
+}

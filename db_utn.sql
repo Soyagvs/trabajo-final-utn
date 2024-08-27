@@ -1,0 +1,26 @@
+CREATE DATABASE db_utn;
+USE db_utn;
+
+CREATE TABLE posts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  description TEXT NOT NULL,
+  image_url VARCHAR(255) NOT NULL
+);
+
+ALTER TABLE posts AUTO_INCREMENT = 1;
+
+SELECT * FROM posts;
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(255) UNIQUE NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  role ENUM('admin', 'user') DEFAULT 'user'
+);
+
+
+DROP USER IF EXISTS 'root'@'%';
+CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+GRANT ALL PRIVILEGES ON db_utn.* TO 'root'@'%';
+FLUSH PRIVILEGES;

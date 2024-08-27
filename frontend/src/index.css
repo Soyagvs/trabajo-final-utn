@@ -1,0 +1,20 @@
+
+body {
+    background-color:rgb(15 23 42);
+    margin: 0;
+}
+
+h1 {
+    color: white;
+}
+
+h2{
+    color: #F6B312;
+}
+
+p{
+    color: #ABB2B9;
+}
+main{
+    height: 900px;
+}

@@ -1,0 +1,54 @@
+.about-container {
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.about-container-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/*texto*/
+.text-title{
+    font-style: normal;
+    color: gainsboro;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    text-align: center;
+}
+
+.text-about, .text-title{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*global*/
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 40px;
+    font-size: 50px;
+}
+.title-about{
+color: white;
+border-bottom: 5px solid  green;
+}
+
+/*imagen*/
+.img-about{
+    max-width: 500px;
+    width: 80%;
+   
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px green;
+}
+
+.img-about:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}

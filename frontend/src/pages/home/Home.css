@@ -1,0 +1,36 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 5px;
+}
+
+.home-h1 {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1000px;
+    text-align: center;
+    border-bottom: 5px solid green;
+}
+
+.home-p {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+.home-video {
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 100%;
+    box-shadow: 10px 10px 10px green;
+}
+
+.home-video:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
